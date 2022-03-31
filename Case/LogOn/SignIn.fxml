@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="368.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Case.LogOn.SignIn">
+   <children>
+      <AnchorPane prefHeight="82.0" prefWidth="520.0" style="-fx-background-color: #E96151;">
+         <children>
+<!--            <ImageView fitHeight="42.0" fitWidth="69.0" layoutX="32.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">-->
+<!--               <image>-->
+<!--                  <Image url="" />-->
+<!--               </image>-->
+<!--            </ImageView>-->
+            <Label layoutX="94.0" layoutY="25.0" text="登录" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="80.0" layoutY="123.0" prefHeight="23.0" prefWidth="42.0" text="name">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="idname" layoutX="80.0" layoutY="146.0" prefHeight="23.0" prefWidth="235.0" promptText="请输入用户名" />
+      <PasswordField fx:id="idpassword" layoutX="80.0" layoutY="211.0" prefHeight="23.0" prefWidth="235.0" promptText="请输入密码" />
+      <Label layoutX="80.0" layoutY="188.0" prefHeight="23.0" prefWidth="59.0" text="password" />
+      <Button fx:id="idregister" layoutX="80.0" layoutY="270.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="235.0" style="-fx-background-color: #E96151;" text="登录" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="idclose" layoutX="80.0" layoutY="308.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="235.0" style="-fx-background-color: #E96151;" text="退出" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
